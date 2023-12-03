@@ -49,6 +49,6 @@ resource "aws_instance" "my-vpc-instance"{
         security_groups = [aws_security_group.allow_ssh.name]
 
         tags={
-            Name = "Secured-instance"
+            Name = "Secured-instance" #Name of Instance
         }
 }
